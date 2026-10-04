@@ -1,6 +1,6 @@
 from google import genai
 
-client = genai.Client(api_key="AIzaSyAJISmBNiPa1cPVcjomHt8GYjdXX4BgIM4")
+client = genai.Client(api_key="YOUR_API_KEY")
 
 # 填入你刚才创建任务后返回的 Job Name
 #job_name = "batches/nldwg50490ga11s0qmz64p07hoem973t2tsc" 

@@ -4,7 +4,7 @@ import json
 import pandas as pd
 import anthropic
 
-client = anthropic.Anthropic(api_key="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")
+client = anthropic.Anthropic(api_key="YOUR_API_KEY")
 
 batch_id = "msgbatch_011UGea3yDtbEgQ8U6WAqhVv"
 input_excel  = "D:/2025THU/SELF_OTHER/LLMRating_Task/Raw/progress/claude_2.xlsx"

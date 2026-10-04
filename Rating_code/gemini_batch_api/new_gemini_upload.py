@@ -5,7 +5,7 @@ from google import genai
 from google.genai import types
 
 # ================= 配置区 =================
-API_KEY = "AIzaSyAJISmBNiPa1cPVcjomHt8GYjdXX4BgIM4"
+API_KEY = "YOUR_API_KEY"
 INPUT_EXCEL = "D:/2025THU/SELF_OTHER/LLMRating_Task/Raw/AllRowData.xlsx"
 OUTPUT_JSONL = "D:/2025THU/SELF_OTHER/LLMRating_Task/Raw/gemini_batch_input.jsonl"
 MODEL_NAME = "models/gemini-3.1-pro-preview"  # 推荐先用 flash 测试，性价比最高

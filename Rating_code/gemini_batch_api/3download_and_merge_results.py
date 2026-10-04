@@ -4,7 +4,7 @@ import pandas as pd
 from google import genai
 
 # ================= 配置区 =================
-API_KEY = "AIzaSyAJISmBNiPa1cPVcjomHt8GYjdXX4BgIM4"
+API_KEY = "YOUR_API_KEY"
 BATCH_JOB_NAME = "batches/8wvkx54os94ss098uhccq88c3z2fbtdodgf5"
 ORIGINAL_EXCEL = "D:/2025THU/SELF_OTHER/LLMRating_Task/Raw/AllRowData_2_2.xlsx"
 FINAL_OUTPUT_EXCEL = "D:/2025THU/SELF_OTHER/LLMRating_Task/Raw/gemini_2_2.xlsx"

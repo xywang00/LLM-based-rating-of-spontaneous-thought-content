@@ -3,7 +3,7 @@ import json
 import pandas as pd
 import anthropic
 
-client = anthropic.Anthropic(api_key="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")
+client = anthropic.Anthropic(api_key="YOUR_API_KEY")
 
 # 每次batch改这三个变量
 batch_id    = "msgbatch_01MCRM6CCPa9wdA2DTHKxFqR"

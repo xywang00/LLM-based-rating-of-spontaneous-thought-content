@@ -4,7 +4,7 @@ import json
 import pandas as pd
 import anthropic
 
-client = anthropic.Anthropic(api_key="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")
+client = anthropic.Anthropic(api_key="YOUR_API_KEY")
 
 QUESTIONS = [
     "1.您认为该思维片段多大可能是【抑郁症患者】说的?",
